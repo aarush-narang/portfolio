@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         source: "/",
-        destination: `/${process.env.NEXT_PUBLIC_BASE_PATH}`,
+        destination: `${process.env.NEXT_PUBLIC_BASE_PATH}`,
         permanent: true,
       },
     ];
