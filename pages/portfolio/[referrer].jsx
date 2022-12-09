@@ -18,6 +18,8 @@ export default function Redirect({}) {
   const { referrer } = router.query;
 
   useEffect(() => {
+    console.log(referrer);
+    if(!referrer) return;
     if (LINKS.get(referrer)) {
       router.replace(LINKS.get(referrer));
     } else {
