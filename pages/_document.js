@@ -17,6 +17,7 @@ export default function Document() {
             gtag('config', 'G-VNGV77LZLG');`,
           }}
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <body>
         <Main />
