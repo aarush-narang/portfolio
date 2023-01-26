@@ -1,9 +1,8 @@
-import Head from 'next/head'
 import { useEffect, useRef, useState } from 'react'
 import RockPaperScissors from '../lib/games/RockPaperScissors'
 import TicTacToe from '../lib/games/TicTacToe'
 import Typewriter from '../lib/Typewriter'
-import { deviceType, BASE_PREFIX } from '../lib/util/util'
+import { deviceType } from '../lib/util/util'
 import styles from '../styles/Home.module.css'
 import { faker } from '@faker-js/faker'
 
@@ -638,10 +637,6 @@ export default function Home() {
 
     return (
         <>
-            <Head>
-                <title>Portfolio</title>
-                <link rel="icon" href={`${BASE_PREFIX}/favicon.ico`} />
-            </Head>
             <div className={styles.consoleDisplay} ref={consoleDisplayRef}></div>
             <div className={styles.consoleInputDisplay} ref={consoleInputDisplayRef}>
                 {USER_TEXT}
