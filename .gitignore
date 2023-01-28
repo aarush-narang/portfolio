@@ -35,3 +35,5 @@ yarn-error.log*
 
 # Keep the workflow but ignore for now, deployed to vercel instead
 .github
+
+LICENSE
