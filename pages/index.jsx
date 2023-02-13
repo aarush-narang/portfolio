@@ -14,7 +14,7 @@ const CONTACT_INFO = {
     github: 'https://github.com/aarush-narang',
     linkedin: 'https://www.linkedin.com/in/aarush-narang',
     instagram: 'https://www.instagram.com/aarushnarang_/',
-    host: 'https://aarush-narang.github.io/portfolio'
+    host: 'https://portfolio.aarushnarang.com/'
 }
 
 export default function Home() {
